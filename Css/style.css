@@ -3,10 +3,32 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-align: left;
+}
+.products {
+  width: 100%;
+  margin-bottom: 100px;
+}
+h1 {
+  margin: 20px 0 20px 20px;
+  color: #612406;
+  font-family: "Arial", sans-serif;
+  font-size: 60px;
 }
 section {
+  background-color: #fbf7e3;
+  border-radius: 30px;
+  padding: 20px;
+  margin: 20px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  color: #612406;
+}
+section div {
+  margin-left: 20px;
+}
+section h3 {
+  font-size: 24px;
+  margin-bottom: 25px;
 }
