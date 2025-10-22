@@ -1,4 +1,4 @@
-header {
+/* header {
   background-color: #fbf7e3;
   display: flex;
   flex-direction: row;
@@ -44,4 +44,50 @@ header li {
 .shop-link img {
   display: inline-block;
   font-size: 1.2em;
+} */
+header {
+  width: auto;
+  background-color: rgb(254, 247, 226);
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+li {
+  width: 180px;
+  height: 90px;
+  background-color: rgb(255, 223, 127);
+  border: 1px solid rgb(255, 223, 127);
+  border-radius: 50px;
+  margin: 0.5em 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#shop-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.shop-link a {
+  display: flex;
+}
+
+a {
+  display: flex;
+  text-decoration: none;
+  color: rgb(45, 50, 100);
+  align-items: center;
+}
+li img {
+  width: 50px;
+  height: 50px;
+  margin-right: 0.25em;
 }
